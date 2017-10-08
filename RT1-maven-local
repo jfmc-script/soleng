@@ -7,7 +7,7 @@ UI = userInput (
 
 
 
-artifactory(UI) {
+artifactory($UI) {
   localRepository('RT1-maven-local') {
     description "Public description"
     notes "Some internal notes"
