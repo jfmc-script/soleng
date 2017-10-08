@@ -1,5 +1,5 @@
 artifactory("RT1") {
-  localRepository('RT1-maven-local') {
+  localRepository('RT1-maven-local-cc') {
     description "Public description"
     notes "Some internal notes"
     includesPattern "**/*" // default
