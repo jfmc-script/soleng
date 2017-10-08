@@ -8,6 +8,6 @@ artifactory("RT1") {
     propertySets // (["ps1", "ps2"])
     archiveBrowsingEnabled false
     blackedOut false // default
-    packageType "RT1-maven-local"
+    packageType "ivy"
   }
 }
