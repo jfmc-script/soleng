@@ -5,8 +5,6 @@ aa = userInput (
     description : "please provide a value"
   )
 
-
-
 artifactory('aa') {
   localRepository('RT1-maven-local') {
     description "Public description"
