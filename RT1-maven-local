@@ -6,7 +6,7 @@ userInput (
 
 artifactory(userInput) {
   localRepository('RT1-maven-local') {
-    description "Public description"
+    description userInput
     notes "Some internal notes"
     includesPattern "**/*" // default
     excludesPattern "" // default
