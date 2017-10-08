@@ -1,11 +1,11 @@
-aa = userInput (
+userInput (
     name : "User Friendly Name", // Optional
     type : "ARTIFACTORY", // "BOOLEAN", "INTEGER", "INSTANCE", "XRAY", "ARTIFACTORY", "REPOSITORY", "PACKAGE_TYPE"
     value : "default value",
     description : "please provide a value"
   )
 
-artifactory(aa) {
+artifactory(userInput) {
   localRepository('RT1-maven-local') {
     description "Public description"
     notes "Some internal notes"
