@@ -1,5 +1,5 @@
 userInput (
-    name : "User Friendly Name", // Optional
+   // name : "User Friendly Name", // Optional
     type : "ARTIFACTORY", // "BOOLEAN", "INTEGER", "INSTANCE", "XRAY", "ARTIFACTORY", "REPOSITORY", "PACKAGE_TYPE"
     value : "default value",
     description : "please provide a value"
