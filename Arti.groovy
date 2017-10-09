@@ -21,11 +21,11 @@ artifactoryToUserInput2 = userInput (
     type : "ARTIFACTORY",
     description : "please provide a to name artifactory"
 )
-artifactory(artifactoryToUserInput.name) {
+artifactory(artifactoryToUserInput2.name) {
   localRepository("local-repository-key") {
-    replication(artifactoryToUserInput) {
-      username artifactoryToUserInput.credentials.userName
-      password artifactoryToUserInput.credentials.password
+    replication(artifactoryToUserInput2) {
+      username artifactoryToUserInput2.credentials.userName
+      password artifactoryToUserInput2.credentials.password
 
       cronExp "0 0/9 14 * * ?"
       socketTimeoutMillis 15000
