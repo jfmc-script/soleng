@@ -9,7 +9,7 @@ artifactory(artifactoryToUserInput.name) {
     replication(artifactoryToUserInput) {
       username artifactoryToUserInput.credentials.userName
       password artifactoryToUserInput.credentials.password
-
+	  url ("http://localhost:8082/artifactory/bower-local")
       cronExp "0 0/9 14 * * ?"
       socketTimeoutMillis 15000
     }
