@@ -1,4 +1,4 @@
-artifactory("RT1") {
+artifactory("Arti1") {
   localRepository('RT1-maven-local') {
     description "Public description"
     notes "Some internal notes"
